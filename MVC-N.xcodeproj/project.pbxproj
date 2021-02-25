@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		EAF2949825E6A3D400305F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2949725E6A3D400305F5B /* AppDelegate.swift */; };
 		EAF2949A25E6A3D400305F5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2949925E6A3D400305F5B /* SceneDelegate.swift */; };
-		EAF2949C25E6A3D400305F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2949B25E6A3D400305F5B /* ViewController.swift */; };
-		EAF2949F25E6A3D400305F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF2949D25E6A3D400305F5B /* Main.storyboard */; };
+		EAF2949C25E6A3D400305F5B /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2949B25E6A3D400305F5B /* CommentsViewController.swift */; };
+		EAF2949F25E6A3D400305F5B /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF2949D25E6A3D400305F5B /* Comments.storyboard */; };
 		EAF294A125E6A3E300305F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF294A025E6A3E300305F5B /* Assets.xcassets */; };
 		EAF294A425E6A3E300305F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF294A225E6A3E300305F5B /* LaunchScreen.storyboard */; };
+		EAF294B925E6AADC00305F5B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF294B825E6AADC00305F5B /* CommentCell.swift */; };
+		EAF294C025E6DB1D00305F5B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF294BF25E6DB1D00305F5B /* NetworkService.swift */; };
+		EAF294DA25E6FEA300305F5B /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF294D925E6FEA300305F5B /* CommentNetworkService.swift */; };
+		EAF294EB25E7869100305F5B /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF294EA25E7869100305F5B /* GetCommentResponse.swift */; };
+		EAF294EE25E786B000305F5B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF294ED25E786B000305F5B /* Comment.swift */; };
+		EAF294F125E787CE00305F5B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF294F025E787CE00305F5B /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EAF2949425E6A3D400305F5B /* MVC-N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-N.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2949725E6A3D400305F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF2949925E6A3D400305F5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAF2949B25E6A3D400305F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EAF2949E25E6A3D400305F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF2949B25E6A3D400305F5B /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		EAF2949E25E6A3D400305F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Comments.storyboard; sourceTree = "<group>"; };
 		EAF294A025E6A3E300305F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF294A325E6A3E300305F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF294A525E6A3E300305F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF294B825E6AADC00305F5B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		EAF294BF25E6DB1D00305F5B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EAF294D925E6FEA300305F5B /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
+		EAF294EA25E7869100305F5B /* GetCommentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		EAF294ED25E786B000305F5B /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		EAF294F025E787CE00305F5B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,117 @@
 		EAF2949625E6A3D400305F5B /* MVC-N */ = {
 			isa = PBXGroup;
 			children = (
-				EAF2949725E6A3D400305F5B /* AppDelegate.swift */,
-				EAF2949925E6A3D400305F5B /* SceneDelegate.swift */,
-				EAF2949B25E6A3D400305F5B /* ViewController.swift */,
-				EAF2949D25E6A3D400305F5B /* Main.storyboard */,
-				EAF294A025E6A3E300305F5B /* Assets.xcassets */,
-				EAF294A225E6A3E300305F5B /* LaunchScreen.storyboard */,
-				EAF294A525E6A3E300305F5B /* Info.plist */,
+				EAF294AF25E6A48600305F5B /* Application */,
+				EAF294B025E6A4FC00305F5B /* Comments */,
+				EAF294B425E6A5B800305F5B /* Supporting files */,
 			);
 			path = "MVC-N";
+			sourceTree = "<group>";
+		};
+		EAF294AC25E6A43000305F5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294F025E787CE00305F5B /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAF294AD25E6A43800305F5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294A225E6A3E300305F5B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAF294AE25E6A43F00305F5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAF2949725E6A3D400305F5B /* AppDelegate.swift */,
+				EAF2949925E6A3D400305F5B /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAF294AF25E6A48600305F5B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294AC25E6A43000305F5B /* Model */,
+				EAF294AD25E6A43800305F5B /* View */,
+				EAF294AE25E6A43F00305F5B /* Controller */,
+				EAF294BE25E6DAF100305F5B /* NetworkService */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EAF294B025E6A4FC00305F5B /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294E825E7866A00305F5B /* Model */,
+				EAF294B225E6A51300305F5B /* View */,
+				EAF294B125E6A50900305F5B /* Controller */,
+				EAF294D825E6FE4F00305F5B /* CommentNetworkService */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		EAF294B125E6A50900305F5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAF2949B25E6A3D400305F5B /* CommentsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAF294B225E6A51300305F5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAF2949D25E6A3D400305F5B /* Comments.storyboard */,
+				EAF294B825E6AADC00305F5B /* CommentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAF294B425E6A5B800305F5B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294A025E6A3E300305F5B /* Assets.xcassets */,
+				EAF294A525E6A3E300305F5B /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		EAF294BE25E6DAF100305F5B /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294BF25E6DB1D00305F5B /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		EAF294D825E6FE4F00305F5B /* CommentNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294D925E6FEA300305F5B /* CommentNetworkService.swift */,
+			);
+			path = CommentNetworkService;
+			sourceTree = "<group>";
+		};
+		EAF294E825E7866A00305F5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294ED25E786B000305F5B /* Comment.swift */,
+				EAF294E925E7867600305F5B /* Responses */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAF294E925E7867600305F5B /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				EAF294EA25E7869100305F5B /* GetCommentResponse.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +240,7 @@
 			files = (
 				EAF294A425E6A3E300305F5B /* LaunchScreen.storyboard in Resources */,
 				EAF294A125E6A3E300305F5B /* Assets.xcassets in Resources */,
-				EAF2949F25E6A3D400305F5B /* Main.storyboard in Resources */,
+				EAF2949F25E6A3D400305F5B /* Comments.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +251,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF2949C25E6A3D400305F5B /* ViewController.swift in Sources */,
+				EAF2949C25E6A3D400305F5B /* CommentsViewController.swift in Sources */,
 				EAF2949825E6A3D400305F5B /* AppDelegate.swift in Sources */,
 				EAF2949A25E6A3D400305F5B /* SceneDelegate.swift in Sources */,
+				EAF294EE25E786B000305F5B /* Comment.swift in Sources */,
+				EAF294EB25E7869100305F5B /* GetCommentResponse.swift in Sources */,
+				EAF294C025E6DB1D00305F5B /* NetworkService.swift in Sources */,
+				EAF294F125E787CE00305F5B /* NetworkError.swift in Sources */,
+				EAF294B925E6AADC00305F5B /* CommentCell.swift in Sources */,
+				EAF294DA25E6FEA300305F5B /* CommentNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EAF2949D25E6A3D400305F5B /* Main.storyboard */ = {
+		EAF2949D25E6A3D400305F5B /* Comments.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EAF2949E25E6A3D400305F5B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Comments.storyboard;
 			sourceTree = "<group>";
 		};
 		EAF294A225E6A3E300305F5B /* LaunchScreen.storyboard */ = {
@@ -287,7 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MVC-N/Info.plist";
+				INFOPLIST_FILE = "MVC-N/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MVC-N/Info.plist";
+				INFOPLIST_FILE = "MVC-N/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
